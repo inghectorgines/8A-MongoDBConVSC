@@ -1,0 +1,10 @@
+// Conectar BD
+use("sample_training")
+
+// Realizar consulta
+// En MySQL: select * from lines where id = 34;
+
+// En MongoDB:
+db.zips.find({ state: "NY" })
+
+db.zips.find({ state: "NY" }).count()
